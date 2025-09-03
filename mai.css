@@ -16,3 +16,35 @@ body{
     "image4 text4"
     "footer footer"  
 }
+
+
+.heading{
+
+    grid-area: heading;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.navbar{
+
+    grid-area: navbar;
+    background-color: white;
+    background: #fff;
+    padding:1em 0;
+    text-align: center;}
+
+.navbar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+.navbar ul li a {
+        color:#0a0a0a;
+        text-decoration: none;
+    }
